@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+h1{ 
+	color: darkblue;
+	
+}
+
+h2{ 
+	color: cornflowerblue;
+	background-color:bisque;
+	
+}
+
+pre{
+	font-style: italic;
+}
+
+
+.textalign{
+	text-align: center;
+	color:darkslateblue;
+	background-color: blanchedalmond;
+	
+	
+	
+}
+.abstract{
+	color: chocolate;
+}
+
+
+
+/*page 2*/
+
+body{
+	padding:0;
+	margin:0;
+}
+
+.placement{
+	position: absolute;
+}
+
+.LEye {
+  left: 485px;
+  top: 878px;
+
+  width: 154px;
+  height: 67px;
+  z-index: 4;
+}
+
+.MouthTop {
+  left: 577px;
+  top: 1309px;
+  width: 339px;
+  height: 272px;
+  z-index: 3;
+}
+
+.MouthTop:hover {
+	top: 1400px;
+}
+
+.Red_Eye {
+  left: 485px;
+  top: 873px;
+  width: 154px;
+  height: 74px;
+  z-index: 5;
+		
+
+}
+
+
+
+.REye {
+  left: 899px;
+  top: 900px;
+  width: 156px;
+  height: 64px;
+  z-index: 6;
+	opacity:0;
+	transition: opacity 0s;
+}
+
+.REye:hover {	
+	opacity: 1;
+}
+
